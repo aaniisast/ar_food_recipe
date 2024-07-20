@@ -94,6 +94,7 @@ class _DetailKelasPageState extends State<DetailKelasPage> {
                     SizedBox(height: 12),
                     Text(
                       intro,
+                      textAlign: TextAlign.justify,
                       style: blackTextStyle.copyWith(
                         fontSize: 12,
                       ),
@@ -108,6 +109,7 @@ class _DetailKelasPageState extends State<DetailKelasPage> {
                       ),
                     ),
                     Text(
+                      textAlign: TextAlign.justify,
                       deskripsi,
                       style: blackTextStyle.copyWith(
                         fontSize: 12,
